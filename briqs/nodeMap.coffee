@@ -87,7 +87,6 @@ exports.locations =
   'BATT-0': title: 'booster s3'
   'RF12:100:4': title: 'tempNode s4'
 
-
   #'BATT-0': title: 'buro JC'
   #'BATT-1': title: 'coin cell test'
   #'BATT-2': title: 'penlight test'
