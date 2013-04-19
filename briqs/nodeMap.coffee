@@ -42,7 +42,10 @@ exports.rf12nodes =
     24: 'roomNode'
   # included for the DIJN LDR example
   100:
-    1: 'lightNode'
+    2: 'roomNode'
+    3: 'radioBlip'
+    4: 'tempNode'
+
 
 # devices are mapped to RF12 configs, since that is not present in log files
 # TODO: same time-dependent comment as above, this mapping is not fixed
@@ -80,11 +83,14 @@ exports.locations =
   'RF12:5:23': title: 'gang boven'
   'RF12:5:24': title: 'zolderkamer'
 
-  'RF12:100:1': title: 'test location'
+  'RF12:100:2': title: 'roomNode s2'
+  'BATT-0': title: 'booster s3'
+  'RF12:100:4': title: 'tempNode s4'
 
-  'BATT-0': title: 'buro JC'
-  'BATT-1': title: 'coin cell test'
-  'BATT-2': title: 'penlight test'
+
+  #'BATT-0': title: 'buro JC'
+  #'BATT-1': title: 'coin cell test'
+  #'BATT-2': title: 'penlight test'
   'DCF77': title: 'radioklok'
   'KS300': title: 'weerstation'
   'S300-1': title: 'vlonder'
